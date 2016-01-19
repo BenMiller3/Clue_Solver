@@ -32,6 +32,11 @@ end
 def viewPlayerHand(player)
 	puts (player)
 	end
+	
+#Declare weapons, suspects, and rooms by first two letters 
+weapons = [le,ro,wr,ca,kn,re]
+suspects = [gr,pl,wh,sc,pe,co]
+rooms = [ba,bi,st,li,ha,ki,di,co,lo]
 
 #Test cases
 outcomes(2,2,2)
